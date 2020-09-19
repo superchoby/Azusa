@@ -1,3 +1,7 @@
+https://speckyboy.com/css-javascript-text-animation-snippets/
+https://codepen.io/yshlin/pen/ylDEk
+https://animate.style/#documentation
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
