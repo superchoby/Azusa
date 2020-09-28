@@ -1,0 +1,66 @@
+.final-letter {
+  margin: 60px auto 300px auto;
+  width: 700px;
+}
+
+.dont-display {
+  display: none;
+}
+
+@keyframes slideUp {
+  from {
+    margin: 60px auto 0 0;
+  }
+  to {
+    margin: 20px auto 0 0;
+  }
+}
+
+.text-message {
+  animation-name: slideUp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  background-color: #0199ff;
+  border-radius: 15px;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  margin: 60px auto 0 0;
+  padding: 10px 15px;
+}
+
+.text-message p {
+  margin: 0;
+}
+
+@keyframes getDark {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+
+@keyframes getBright {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+.start-bright {
+  animation-name: getDark;
+  animation-duration: 0.8s;
+  animation-iteration-count: 3;
+  opacity: 0.8;
+}
+
+.start-dark {
+  animation-name: getBright;
+  animation-duration: 0.8s;
+  animation-iteration-count: 3;
+  opacity: 0.2;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import { Animated } from "react-animated-css";
-import azusa from "../images/azusa.jpg";
+import azusa from "../media/azusa.jpg";
 
 export function HappyBirthdayMessage() {
   return (
@@ -23,7 +23,7 @@ export function HappyBirthdayMessage() {
 
       <Animated
         animationIn="tada"
-        animationInDelay="1400"
+        animationInDelay="3200"
         animationOut="fadeOut"
         isVisible={true}
       >

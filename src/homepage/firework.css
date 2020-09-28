@@ -1,10 +1,10 @@
 body {
-  overflow: hidden;
   transition: 1s;
 }
 
 .black-background {
   background: #000;
+  overflow: hidden;
 }
 
 .pyro > .before,

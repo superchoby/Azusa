@@ -16,3 +16,29 @@
   height: 50px;
   width: 400px;
 }
+
+.hidden-on-phone {
+  display: block;
+}
+
+.visible-on-phone {
+  display: none;
+}
+
+.hidden-on-phone-form {
+  display: initial;
+}
+
+@media only screen and (max-width: 900px) {
+  .hidden-on-phone {
+    display: none;
+  }
+
+  .hidden-on-phone-form {
+    display: none;
+  }
+
+  .visible-on-phone {
+    display: block;
+  }
+}

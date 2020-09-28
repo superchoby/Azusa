@@ -1,0 +1,32 @@
+.vid-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.vid-container video {
+  display: block;
+  margin-top: 50px;
+}
+
+.final-page-button {
+  align-items: center;
+  animation-duration: 5s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  animation-name: becomeClear;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  margin: 80px auto;
+  height: 50px;
+  justify-content: center;
+  opacity: 0;
+  width: 200px;
+}
