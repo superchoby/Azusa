@@ -22,7 +22,8 @@ export function Letter() {
     `I was thinking of mailing you something but there
       was no guarantee that it would come exactly on your birthday so I hope
       that this present works. Normally, there would be a lot of people there to
-      sing and a actual cake but I hope what I did this time was fine.`,
+      sing and a actual cake but I hope what I did this time was fine. It was 
+      way cooler in my head but I got too nervous when I sang it😅`,
 
     `A lot of
       times I smile during the calls because I think about this website idea I
